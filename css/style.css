@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "SF-Compact-Rounded-Bold";
+    src: url("../fonts/SF-Compact-Rounded-Bold.otf");
+  }
+@font-face {
+    font-family: "SF-Compact-Rounded-Light";
+    src: url("../fonts/SF-Compact-Rounded-Light.otf");
+  }
+  @font-face {
+    font-family: "SF-Compact-Rounded-Regular";
+    src: url("../fonts/SF-Compact-Rounded-Regular.otf");
+  }
+  @font-face {
+    font-family: "SF-Compact-Rounded-Medium";
+    src: url("../fonts/SF-Compact-Rounded-Medium.otf");
+  }
+
+h1{
+    font-size:20px;
+    font-family:"SF-Compact-Rounded-Medium";
+}
+h2{
+    font-family:"SF-Compact-Rounded-Bold";
+    font-size:48px;
+}
+h3{
+    font-family:"SF-Compact-Rounded-Medium";
+    font-size:36px; 
+}
+h4{
+    font-size:18px;
+    font-family:"SF-Compact-Rounded-Medium";
+}
+p{
+    font-family:"SF-Compact-Rounded-Regular";
+    font-size:16px; 
+}
+header{
+    background-color:#4B5320;
+    opacity: 0.9;
+    height: 109px;
+
+    display: flex;
+    width: auto;
+    flex-wrap: nowrap;
+}
+a{
+    font-size: 16px;
+    color: #ffffff;
+}
+a:hover {
+    color: #f4f4f4;
+}
+
+button {
+    font-family:"SF-Compact-Rounded-Medium";
+    font-size: 18px;
+    background-color:white;
+    color: #4B5320;
+    outline: none;
+    border-radius: 42px;
+    width: 111px;
+    height: 37px;
+    border: none;
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color:#4B5320;
+    color:white;
+}
+
+.secondary-button{
+    font-family:"SF-Compact-Rounded-Medium";
+    font-size: 18px;
+    color: #4B5320;
+    outline: 3px;
+    width: 177px;
+    height: 44px;
+    border: solid;
+    border-radius: 100px;
+    border-color:#4B5320;
+}
+.secondary-button:hover {
+    cursor: pointer;
+    background-color:#4B5320;
+    color:white;
+}
