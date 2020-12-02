@@ -14,6 +14,9 @@
         <a class="logo" href="#home">
             <img src="images/ireneggarin.svg" alt="Logo">
         </a>
+        <div class="mobile-logo">
+            <img src="images/ireneggrin-verde.svg" alt="Logo">
+        </div>
         <nav>
             <a class="home">Home</a>
             <a class="about-me">About me</a>
@@ -22,73 +25,92 @@
         </nav>
     </header>
     <main>
-        <section >
-            <div class="intro">
-                <img src="images/Vector.svg" alt="Vector">
-                <div>
-                    <div>
-                        <img src="" alt="">
-                        <h4>Hi, I'm Irene</h4>
-                        <h1>UX/UI Designer</h1>
-                    </div>
-                    <div>
-                        <h2>Whith desing, everything can be better</h2>
-                        <button>About me</button>
-                    </div>
+        <section class="intro-info">
+            <div class="info-foto">
+                <div class="foto">
+                    <img src="images/foto.svg" alt="photo">
+                </div>
+                <div class="info-1">
+                    <h4>Hi, I'm Irene</h4>
+                    <h1>UX/UI Designer</h1>
+                </div>
+            </div>
+            <div class="info-line">
+                <div class="info-2">
+                    <h2>With desing, everything can be better</h2>
+                    <button class="button-intro">About me</button>
                 </div>
             </div>
         </section>
         <div>
-            <div>
-                <img src="">
-                <h4>Last projects</h4>
-                <p>Here is a selection of our most recent projects and case studies</p>
+            <div class="last-projects">
+                <div>
+                    <img src="images/arrow.svg" alt="see-more">
+                </div>
+
+                <div class="last-project-info">
+                    <h4 class="p-last-projects">Last projects</h4>
+                    <p class="p-last-projects"> Here is a selection of our most recent projects and case studies</p>
+                </div>
             </div>
-            <img src="images/brote.svg" alt="Raices">
+
         </div>
         <section>
-            <h3> UX/UI Design</h3>
-            <div>
-                <h3>WeActive | Exercise in company</h3>
-                <h4>Iphone App Design</h4>
-                <p>Design of an application so that in those moments that you need a push to do sport, you are
-                    accompanied.</p>
-                <button>See project</button>
-                <img src="images/mockup-weactive.jpg" alt="Mockup WeActive">
+            <h3 id="h3-unic"> UX/UI Design</h3>
+            <div class="project">
+                <div class="project-info">
+                    <h3>WeActive | Exercise in company</h3>
+                    <h4 class="project-h4">Iphone App Design</h4>
+                    <p>Design of an application so that in those moments that you need a push to do sport, you are
+                        accompanied.</p>
+                    <a class="project-button" target="_blank"
+                        href="https://irene-g-garin.medium.com/weactive-conoce-a-gente-haciendo-deporte-1ecf651f5133">
+                        <button> See project</button>
+                    </a>
+                </div>
+                <img class="project-img" src="images/mockup-weactive.jpg" alt="Mockup WeActive">
             </div>
-            <div>
-                <h3>Kirikú y la bruja| E-commerce Redesign</h3>
-                <h4>E-commerce Redesign</h4>
-                <p>Explicación del proyecto</p>
-                <button>See project</button>
-                <img src="images/mockup-kiriku.jpg" alt="Mockup Kirikú">
+            <div class="project-special">
+                <div class="project-info">
+                    <h3>Kirikú y la bruja| E-commerce Redesign</h3>
+                    <h4 class="project-h4">E-commerce Redesign</h4>
+                    <p>Explicación del proyecto</p>
+                    <button class="project-button"> See project</button>
+                </div>
+                <img class="project-img" src="images/mockup-kiriku.jpg" alt="Mockup Kirikú">
             </div>
-            <div>
-                <h3>Cabify| New functionality</h3>
-                <h4>Iphone App Design</h4>
-                <p>Explicación del proyecto</p>
-                <button>See project</button>
-                <img src="images/mockup-cabify.jpg" alt="Mockup Cabify">
+            <div class="project">
+                <div class="project-info">
+                    <h3>Cabify| New functionality</h3>
+                    <h4 class="project-h4">Iphone App Design</h4>
+                    <p>Explicación del proyecto</p>
+                    <button class="project-button">See project</button>
+                </div>
+
+                <img class="project-img" src="images/mockup-cabify.jpg" alt="Mockup Cabify">
             </div>
         </section>
         <section>
-            <h3> Product Design</h3>
-            <div>
-                <h3>Modular vertical Garden</h3>
-                <h4>Product desing</h4>
-                <p>Explicación del proyecto</p>
-                <button>See project</button>
-                <img src="images/jardin-vertical.jpg" alt="Vertical Garden Image">
-            </div>
+            <h3 id="h3-unic"> Product Design</h3>
+            <div class="project-special">
+                <div class="project-info">
+                    <h3>Modular vertical Garden</h3>
+                    <h4 class="project-h4">Product desing</h4>
+                    <p>Explicación del proyecto</p>
+                    <button class="project-button">See project</button>
+                </div>
+                <img class="project-img" src="images/jardin-vertical.jpg" alt="Vertical Garden Image">
+
         </section>
-        <section>
+        <section class="contact-me">
             <h2>Interested in Working together?</h2>
-            <button class="secondary-button"> Contact me </button>
+            <input type="button" value="Contact-me" onclick="parent.location='mailto:irene.g.garin@gmail.com'"
+                class="secondary-button">
         </section>
     </main>
     <footer>
-        <a href="#home">
-            <img src="images/ireneggarin.svg∫" alt="Logo" style="width:42px;height:46px;">
+        <a class="logo" href="#home">
+            <img src="images/ireneggarin.svg" alt="Logo">
         </a>
         <nav>
             <a>Home</a>
@@ -96,12 +118,11 @@
             <a>Projects</a>
             <a>Contact</a>
         </nav>
-        <div>
-            <a href="https://irene-g-garin.medium.com/">
-                <img src="images/medium.svg" alt="Medium" style="width:42px;height:46px;">
-                <a href="www.linkedin.com/in/irene-garcia-garin">
-                    <img src="images/linkedin.svg" alt="Logo" style="width:42px;height:46px;">
-
+        <div class="logos-rrss">
+            <a href="https://irene-g-garin.medium.com/" target="_blank">
+                <img src="images/medium.svg" alt="Medium">
+            <a href="https://www.linkedin.com/in/irene-garcia-garin/" target="_blank">
+                <img src="images/linkedin.svg" alt="Logo">
         </div>
     </footer>
 </body>
