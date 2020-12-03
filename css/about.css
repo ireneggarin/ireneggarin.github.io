@@ -1,0 +1,217 @@
+h4{
+    font-size: 20px;
+    color:#4B5320;
+}
+h1{
+    font-size: 30px;
+
+}
+.mobile-logo{
+    display: none;
+}
+header{
+    background-color: #4B5320;
+    width: 100%;
+    height:84px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.contact a{
+    color: #4B5320 ;
+    font-size: 20px;
+}
+.contact a:hover{
+    color: #99A06F;
+    font-size: 20px;
+    cursor: pointer;
+}
+a:hover{
+    color:#99A06F;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 90%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 48px;
+}
+nav{
+    width: 409px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section{
+    background-color: #F6F6F6;
+    height: 90vh;
+}
+.box{
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+img{
+    width: 40vh;
+}
+.info{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    margin-top: 25px;
+    height:200px;
+}
+.contact-info{
+    font-size: 20px;
+    color:#4B5320;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-info a{
+    color:#4B5320;
+}
+footer{
+    background-color: #4B5320;
+    height: 151px;
+    display: flex;
+
+}
+.footer{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.logos-rrss{
+    width: 92px;
+}
+.logos-rrss img{
+    width: 34px;
+}
+.logo-footer img{
+    padding-left: 40px;
+    width: 100px;
+}
+
+
+@media only screen and (max-width: 414px) {
+    main{
+    padding-top: 52px;
+}
+    html {
+        overflow-x: hidden;
+    } 
+    header{
+        width: 414px;
+        background-color:white;
+        opacity: 0.9;
+        height: 52px;
+        display: flex;
+        position: fixed;
+        z-index: 1;
+
+    }
+    .navbar{
+        max-width: 414px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content:flex-end;
+        margin:  10px;
+    }
+     .home{
+      display: none;
+    }
+    .about-me{
+      display: none;
+     }
+    .projects{
+     display: none;
+    }
+    .photo{
+        margin-top: 20px;
+    }
+    .contact{
+        color: #4B5320;
+        background-color:#F6F6F6;
+        outline: none;
+        border-radius: 30px;
+        width: 57px;
+        height: 20px;
+    }
+
+    .home{
+        color:#4B5320 ;
+    }
+    .logo{
+        display: none;
+    }
+    .mobile-logo{
+        display:flex;
+        width: 25px;
+        padding-left: 10px;
+    }
+    .section{
+    height: 90%;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+    .info{
+        margin-top: 30px;
+    }
+   img{
+        width: 35vh;
+    }
+    .contact-info{
+        background-color: #4B5320;
+       padding-left: 30px;
+       padding-right: 30px;
+       height: 90%;
+       border-radius: 10px;
+       display: flex;
+       justify-content: space-evenly;
+    }
+    .contact-info a{
+        color: white;
+    }
+    footer{
+        height: 40px;
+    }
+    .logo-footer{
+        display: none;
+    }
+    .footer{
+        justify-content: flex-end;
+    }
+    .logos-rrss img{
+        width: 24px;;
+    }
+}
