@@ -7,22 +7,24 @@
     <title>Irene.G.Garín Portfolio</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/nav.js"></script>
 </head>
 
 <body>
     <header>
-        <a class="logo" href="#home">
-            <img src="images/ireneggarin.svg" alt="Logo">
-        </a>
-        <div class="mobile-logo">
-            <img src="images/ireneggrin-verde.svg" alt="Logo">
+        <div class="navbar">
+            <img class="logo" src="images/ireneggarin.svg" alt="Logo">
+            <div class="mobile-logo">
+                <img src="images/ireneggrin-verde.svg" alt="Logo">
+            </div>
+            <nav>
+                <a class="about-me">About me</a>
+                <a href="#projects" class="projects">Projects</a>
+                <a href="#contact" class="contact">Contact</a>
+            </nav>
         </div>
-        <nav>
-            <a class="home">Home</a>
-            <a class="about-me">About me</a>
-            <a class="projects">Projects</a>
-            <a class="contact">Contact</a>
-        </nav>
     </header>
     <main>
         <section class="intro-info">
@@ -57,74 +59,80 @@
         </div>
         <section>
             <h3 id="h3-unic"> UX/UI Design</h3>
-            <div class="project">
+            <div id="projects" class="project" data-aos="fade-right">
                 <div class="project-info">
                     <h3>WeActive | Exercise in company</h3>
                     <h4 class="project-h4">Iphone App Design</h4>
                     <p>Design of an application so that in those moments that you need a push to do sport, you are
                         accompanied.</p>
-                    <a class="project-button" target="_blank"
+                    <a target="_blank"
                         href="https://irene-g-garin.medium.com/weactive-conoce-a-gente-haciendo-deporte-1ecf651f5133">
                         <button> See project</button>
                     </a>
                 </div>
                 <img class="project-img" src="images/mockup-weactive.jpg" alt="Mockup WeActive">
             </div>
-            <div class="project-special">
+            <div class="project-special" data-aos="fade-left">
                 <div class="project-info">
                     <h3>Kirikú y la bruja| E-commerce Redesign</h3>
                     <h4 class="project-h4">E-commerce Redesign</h4>
                     <p>Explicación del proyecto</p>
-                    <button class="project-button"> See project</button>
+                    <button> See project</button>
                 </div>
                 <img class="project-img" src="images/mockup-kiriku.jpg" alt="Mockup Kirikú">
             </div>
-            <div class="project">
+            <div class="project" data-aos="fade-right">
                 <div class="project-info">
                     <h3>Cabify| New functionality</h3>
                     <h4 class="project-h4">Iphone App Design</h4>
                     <p>Explicación del proyecto</p>
-                    <button class="project-button">See project</button>
+                    <button>See project</button>
                 </div>
-
                 <img class="project-img" src="images/mockup-cabify.jpg" alt="Mockup Cabify">
             </div>
         </section>
         <section>
             <h3 id="h3-unic"> Product Design</h3>
-            <div class="project-special">
+            <div class="project-special" data-aos="fade-left">
                 <div class="project-info">
                     <h3>Modular vertical Garden</h3>
                     <h4 class="project-h4">Product desing</h4>
                     <p>Explicación del proyecto</p>
-                    <button class="project-button">See project</button>
+                    <button>See project</button>
                 </div>
                 <img class="project-img" src="images/jardin-vertical.jpg" alt="Vertical Garden Image">
 
         </section>
-        <section class="contact-me">
+        <section id="contact" class="contact-me">
             <h2>Interested in Working together?</h2>
             <input type="button" value="Contact-me" onclick="parent.location='mailto:irene.g.garin@gmail.com'"
                 class="secondary-button">
         </section>
     </main>
     <footer>
-        <a class="logo" href="#home">
-            <img src="images/ireneggarin.svg" alt="Logo">
-        </a>
-        <nav>
-            <a>Home</a>
-            <a>About me</a>
-            <a>Projects</a>
-            <a>Contact</a>
-        </nav>
-        <div class="logos-rrss">
-            <a href="https://irene-g-garin.medium.com/" target="_blank">
-                <img src="images/medium.svg" alt="Medium">
-            <a href="https://www.linkedin.com/in/irene-garcia-garin/" target="_blank">
-                <img src="images/linkedin.svg" alt="Logo">
+        <div class="footer">
+            <a class="logo" href="#home">
+                <img src="images/ireneggarin.svg" alt="Logo">
+            </a>
+            <nav>
+                <a>Home</a>
+                <a>About me</a>
+                <a>Projects</a>
+                <a>Contact</a>
+            </nav>
+            <div class="logos-rrss">
+                <a href="https://irene-g-garin.medium.com/" target="_blank">
+                    <img src="images/medium.svg" alt="Medium">
+                </a>
+                <a href="https://www.linkedin.com/in/irene-garcia-garin/" target="_blank">
+                    <img src="images/linkedin.svg" alt="Logo">
+                </a>
+            </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
