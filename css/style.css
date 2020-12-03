@@ -68,12 +68,17 @@ a{
     margin-bottom: 8px;
     margin-left: 120px;
 }
-
+.about-me{
+    text-decoration: none;
+}
 .contact{
     text-decoration: none;
 }
 .projects{
     text-decoration: none;
+}
+.about-me:hover{
+    color:#99A06F;
 }
 .projects:hover{
     color:#99A06F;
@@ -423,4 +428,5 @@ footer{
     display: flex;
     justify-content: flex-end;
 }
+
 }
